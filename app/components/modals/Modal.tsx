@@ -62,7 +62,7 @@ const Modal: React.FC<ModalProps> = ({
   }, [disabled, secondaryAction]);
 
   if (!isOpen) {
-    return;
+    return null;
   }
 
   return (
